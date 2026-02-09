@@ -1,0 +1,15 @@
+# Ignore everything by default
+*
+
+# Always allow git metadata
+!.gitignore
+
+# Allow transcripts folder
+!transcripts/
+!transcripts/**
+
+# Allow final spreadsheet
+!video_level_unique_videos_categorized.xlsx
+
+# Ignore Excel temp / lock files
+~$*.xlsx
